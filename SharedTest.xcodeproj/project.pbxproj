@@ -6,8 +6,13 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7CDCCD861686382000F36474 /* File.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCCD851686382000F36474 /* File.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7CDCCD7E16862D2F00F36474 /* libSharedTest.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSharedTest.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDCCD851686382000F36474 /* File.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = File.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +29,7 @@
 		7CDCCD7316862D2F00F36474 = {
 			isa = PBXGroup;
 			children = (
+				7CDCCD851686382000F36474 /* File.c */,
 				7CDCCD7F16862D2F00F36474 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +103,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDCCD861686382000F36474 /* File.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +175,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
+				"GCC_OPTIMIZATION_LEVEL[arch=*]" = s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
